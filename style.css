@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #010113;
+  --dark-color: #06060e;
 }
 
 body {
@@ -195,7 +195,7 @@ body {
   height: 18vmin; /* Alarga los pétalos */
   border-radius: 50% 50% 0 0; /* Pétalos puntiagudos en la parte superior */
   background-color: #FFD700; /* Color más realista para un tulipán amarillo */
-  background-image: linear-gradient(to top, #FFD700, #FFD000);
+  background-image: linear-gradient(to top, #FFD700, #692612);
   transform-origin: bottom center;
   opacity: 0.9;
   box-shadow: inset 0 0 2vmin rgba(255, 255, 255, 0.5);
@@ -450,7 +450,7 @@ body {
   animation-delay: 3.5s;
 }
 .flower__grass {
-  --c: #028137;
+  --c: #78c744;
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -1008,7 +1008,7 @@ body {
       transparent,
       var(--dark-color) 98%
     ),
-    linear-gradient(to bottom right, #028137 45%, transparent 50%, transparent);
+    linear-gradient(to bottom right, #816302 45%, transparent 50%, transparent);
   -webkit-mask-image: linear-gradient(
     135deg,
     #028137 40%,
